@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+::selection {
+  background: #d18ec2; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #d18ec2; /* Gecko Browsers */
+}
+
+/* Firefox */
+:-moz-tree-row(hover), .spectacle-deck {
+  perspective: 1000px;
+}
+
+:-moz-tree-row(hover), ul .appear {
+  display: inline;
+}
+
+.spectacle-slide {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+@media screen {
+  p {
+    /** Because setting it in the `screen.js` is not working :-( */
+    line-height: 1.5 !important;
+  }
+}

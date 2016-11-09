@@ -1,0 +1,48 @@
+{
+  "name": "spectacle-theme-nova",
+  "version": "0.1.0",
+  "description": "Nova theme for Spectable",
+  "main": "index.js",
+  "scripts": {
+    "start": "melodrama-scripts start example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebald/spectacle-theme-nova.git"
+  },
+  "author": {
+    "name": "Sebastian Sebald",
+    "email": "sebastian.sebald@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebald/spectacle-theme-nova/issues"
+  },
+  "homepage": "https://github.com/sebald/spectacle-theme-nova#readme",
+  "peerDependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "spectacle": "^1.2.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.18.2",
+    "babel-loader": "6.2.7",
+    "babel-preset-es2015": "6.18.0",
+    "css-loader": "0.25.0",
+    "melodrama-scripts": "0.2.2",
+    "prismjs": "1.5.1",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "spectacle": "1.2.5",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.3"
+  },
+  "optionalDependencies": {
+    "prismjs": "^1.5.1"
+  },
+  "dependencies": {
+    "hex-rgb": "1.0.0",
+    "normalize.css": "5.0.0",
+    "nova-colors": "2.1.5"
+  }
+}
