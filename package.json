@@ -11,11 +11,12 @@
   "files": [
     "lib",
     "syntax",
-    "build"
+    "bundle.js",
+    "LICENSE",
+    "README.md"
   ],
   "scripts": {
     "prepublish": "webpack",
-    "build": "shx rm -rf lib && webpack",
     "start": "melodrama-scripts start example/index.js",
     "docs": "melodrama-scripts build example/index.js",
     "lint": "eslint ."

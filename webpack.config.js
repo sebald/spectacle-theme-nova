@@ -2,10 +2,10 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: path.join(__dirname, 'src/index.js'),
+  entry: path.join(__dirname, 'lib/index.js'),
   output: {
-    path: path.join(__dirname, 'build'),
-    filename: 'index.js',
+    path: path.join(__dirname),
+    filename: 'bundle.js',
     libraryTarget: 'commonjs2'
   },
   module: {
@@ -27,8 +27,16 @@ module.exports = {
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin({
-      compressor: {
+      compress: {
+        screw_ie8: true,
         warnings: false
+      },
+      mangle: {
+        screw_ie8: true
+      },
+      output: {
+        comments: false,
+        screw_ie8: true
       }
     })
   ]
