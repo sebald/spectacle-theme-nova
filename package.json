@@ -2,6 +2,11 @@
   "name": "spectacle-theme-nova",
   "version": "0.1.0",
   "description": "Nova theme for Spectable",
+  "keywords": [
+    "spectacle",
+    "theme",
+    "nova"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "build": "shx rm -rf lib && webpack",
