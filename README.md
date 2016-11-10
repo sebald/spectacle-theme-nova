@@ -48,6 +48,9 @@ const theme = createTheme(null, customStyles);
 For further information you can also check out the example from this repo.
 You'll find the source code [here]():
 
+### Use the un-packted Version
+
+TODO: Use `lib` instead!
 
 ## Syntax Highlighting
 

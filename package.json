@@ -17,6 +17,7 @@
     "prepublish": "webpack",
     "build": "shx rm -rf lib && webpack",
     "start": "melodrama-scripts start example/index.js",
+    "docs": "melodrama-scripts build example/index.js",
     "lint": "eslint ."
   },
   "repository": {
@@ -43,7 +44,8 @@
     "babel-preset-es2015": "6.18.0",
     "css-loader": "0.25.0",
     "eslint": "3.9.1",
-    "melodrama-scripts": "0.2.2",
+    "file-loader": "0.9.0",
+    "melodrama-scripts": "1.0.0",
     "prismjs": "1.5.1",
     "react": "15.3.2",
     "react-dom": "15.3.2",
