@@ -54,5 +54,4 @@ TODO: Use `lib` instead!
 
 ## Syntax Highlighting
 
-![custom syntax](docs/custom_syntax.png)
-![default syntax](docs/default_syntax.png)
+![custom syntax](docs/syntax_highlighting.png)
