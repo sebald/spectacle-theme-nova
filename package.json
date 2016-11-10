@@ -2,7 +2,7 @@
   "name": "spectacle-theme-nova",
   "version": "0.1.0",
   "description": "Nova theme for Spectable",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "shx rm -rf lib && webpack",
     "start": "melodrama-scripts start example/index.js",
