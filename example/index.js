@@ -10,7 +10,8 @@ import {
   Image
 } from 'spectacle';
 import render, { Presentation } from 'melodrama';
-import createTheme from '../index.js';
+import createTheme from '../lib/index';
+
 
 // Syntax
 // ---------------
