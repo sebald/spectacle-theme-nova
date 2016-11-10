@@ -1,7 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-// Un-webpack-like, but it gets the job done :-x
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const resolveFromSource = p => path.join(__dirname, 'src', p);
 
@@ -39,10 +37,6 @@ module.exports = {
       compressor: {
         warnings: false
       }
-    }),
-    // Copy PrismJS custom syntax
-    new CopyWebpackPlugin([
-      { from: resolveFromSource('syntax'), to: 'syntax' }
-    ])
+    })
   ]
 };
