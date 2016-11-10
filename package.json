@@ -1,6 +1,6 @@
 {
   "name": "spectacle-theme-nova",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nova theme for Spectable",
   "keywords": [
     "spectacle",
@@ -9,6 +9,7 @@
   ],
   "main": "lib/index.js",
   "scripts": {
+    "publish": "webpack",
     "build": "shx rm -rf lib && webpack",
     "start": "melodrama-scripts start example/index.js",
     "lint": "eslint ."
