@@ -1,6 +1,8 @@
 # Spectacle Theme: Nova
 
-A theme for [Spectacle](https://github.com/FormidableLabs/spectacle) based on the awesome color theme called [Nova](http://www.trevordmiller.com/nova/) by [Trevor D. Miller](https://github.com/trevordmiller).
+A theme for [Spectacle](https://github.com/FormidableLabs/spectacle) based on the awesome color theme called [Nova](http://www.trevordmiller.com/nova/) by [Trevor D. Miller](https://github.com/trevordmiller) :sparkling_heart:
+
+![example](./title.png)
 
 ## Installation
 
@@ -54,4 +56,4 @@ TODO: Use `lib` instead!
 
 ## Syntax Highlighting
 
-![custom syntax](docs/syntax_highlighting.png)
+![custom syntax](./syntax_highlighting.png)
