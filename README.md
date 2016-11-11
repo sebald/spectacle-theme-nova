@@ -2,6 +2,8 @@
   <img src="https://raw.githubusercontent.com/sebald/spectacle-theme-nova/master/title.png" alt="Spectacle Theme: Nova"/>
 </h1>
 
+[![Build Status](https://img.shields.io/travis/sebald/spectacle-theme-nova/master.svg)](https://travis-ci.org/sebald/spectacle-theme-nova) [![npm](https://img.shields.io/npm/v/spectacle-theme-nova.svg)](https://www.npmjs.com/package/spectacle-theme-nova)
+
 A theme for [Spectacle](https://github.com/FormidableLabs/spectacle) based on the awesome [Nova](http://www.trevordmiller.com/nova/) color theme by [Trevor D. Miller](https://github.com/trevordmiller), [Adam Christiansen](https://twitter.com/AC_Design) and [Merrick Christensen](https://github.com/iammerrick) :sparkling_heart:
 
 #### [Here is an example presentation using the theme.](https://sebald.github.io/spectacle-theme-nova)
