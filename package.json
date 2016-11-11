@@ -60,6 +60,7 @@
     "prismjs": "^1.5.1"
   },
   "dependencies": {
+    "deep-assign": "2.0.0",
     "hex-rgb": "1.0.0",
     "normalize.css": "5.0.0",
     "nova-colors": "2.1.5"
