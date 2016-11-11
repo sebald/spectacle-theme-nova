@@ -3037,8 +3037,8 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
 melodrama-scripts:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/melodrama-scripts/-/melodrama-scripts-1.0.1.tgz#5ee2387150a6931516318426e8524f57ffbefa9f"
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/melodrama-scripts/-/melodrama-scripts-1.0.2.tgz#2ad85e1472eeb89b428e6a7d6db4cb7fc9cc6304"
   dependencies:
     babel-core "6.18.2"
     babel-loader "6.2.7"
