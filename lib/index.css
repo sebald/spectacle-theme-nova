@@ -37,3 +37,25 @@ html, body, #root {
     line-height: 1.5 !important;
   }
 }
+
+/**
+ * Make lists look nice (issue #1)
+ */
+ul {
+  list-style: none;
+}
+
+li {
+  position: relative;
+  padding-left: 0.875rem !important;
+}
+
+li:before {
+  content: '-';
+  display: block;
+
+  position: absolute;
+  left: -12px;
+
+  color: #899ba6;
+}
