@@ -18,7 +18,7 @@ npm install spectacle-theme-nova
 
 ```jsx
 import { Spectacle, Deck, Slide } from 'spectacle';
-import createTheme from 'spectale-theme-nova';
+import createTheme from 'spectacle-theme-nova';
 
 const theme = createTheme();
 
