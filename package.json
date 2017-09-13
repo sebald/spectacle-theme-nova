@@ -2,21 +2,11 @@
   "name": "spectacle-theme-nova",
   "version": "1.4.0",
   "description": "Nova theme for Spectable",
-  "keywords": [
-    "spectacle",
-    "theme",
-    "nova"
-  ],
+  "keywords": ["spectacle", "theme", "nova"],
   "main": "lib/index.js",
-  "files": [
-    "lib",
-    "syntax",
-    "bundle.js",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["lib", "syntax", "bundle.js", "LICENSE", "README.md"],
   "scripts": {
-    "prepublish": "webpack",
+    "prepare": "webpack",
     "start": "melodrama-scripts start example/index.js",
     "build": "webpack",
     "test": "ava",
@@ -40,10 +30,7 @@
     "require": "babel-register"
   },
   "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ]
+    "presets": ["es2015", "react"]
   },
   "peerDependencies": {
     "react": "^15.3.2",
